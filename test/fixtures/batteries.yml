@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  year_use: 2023-04-03
+  active: false
+
+two:
+  category: MyString
+  year_use: 2023-04-03
+  active: false
