@@ -4,13 +4,13 @@
 
 ### Clone o projeto:
 
-```bash
+```git
   gh repo clone viniciuscurti/Rechargearth
 ```
 
 ### Verifique se o ruby esta instalado:
 
-```bash
+```ruby
   ruby -v
 ```
 
@@ -19,8 +19,8 @@
 ### Instale o ruby:
 #### No Ubuntu:
 ```bash
-    sudo apt-get update
-    sudo apt-get install rbenv
+  sudo apt-get update
+  sudo apt-get install rbenv
 ```
 #### No MacOs:
 
@@ -38,7 +38,7 @@
 
 **Isso vai adicionar o comando rbenv install com o qual você pode instalar novas versões do Ruby:**
 
-```bash
+```git
   git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
@@ -65,7 +65,7 @@
 ### Verifique a versão do Ruby:
 
 **Agora, se você verificar a versão do Ruby, deve ver a versão que você acabou de instalar:**
-```
+```ruby
   cd RechargeEarth
   ruby -v
 ```
