@@ -2,5 +2,5 @@
 
 class Battery < ApplicationRecord
   belongs_to :user
-  belongs_to :delivery
+  belongs_to :delivery, optional: true
 end

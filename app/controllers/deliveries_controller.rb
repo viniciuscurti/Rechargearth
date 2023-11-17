@@ -10,6 +10,7 @@ class DeliveriesController < ApplicationController
 
   def index
     @deliveries = Delivery.all
+    render json: @deliveries
   end
 
   def show
@@ -38,5 +39,19 @@ class DeliveriesController < ApplicationController
     @delivery = Delivery.find(params[:id])
     @delivery.destroy
     render json: 'Deleted delivery'
+  end
+
+  private
+
+  def delivery_params
+    params.require(:delivery).permit(
+      :delivery_date,
+      :address,
+      :collected_date,
+      :person_collected,
+      :person_delivery,
+      :user_id,
+      :battery_id
+    )
   end
 end
